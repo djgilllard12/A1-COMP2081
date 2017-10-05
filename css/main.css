@@ -7,7 +7,6 @@
 h2{
 	font-weight: bold;
 }
-
 /*header styles*/
 header{
 	background-color: #ACA77D;
@@ -16,7 +15,7 @@ header{
 	width: 100%;
 	height: 100%;
 }
-li{
+nav li{
 	padding: 0 20px;
 }
 .nav-item{
@@ -25,10 +24,34 @@ li{
 }
 /*carousel styles*/
 
-#carousel{
-	margin-top: 100px;
-}
 /*main*/
 #row1{
-	margin-top: 50px
+	margin-top: 50px;
+}
+/*card row styles*/
+#row2{
+	display: inline;
+	margin: auto;
+	padding: 0 120px;
+}
+.card,.btn{
+	border-color: #ACA77D;
+	display: inline-block;
+}
+.btn{
+	background-color: #ACA77D;
+}
+/*aside styles*/
+aside li{
+	list-style: none;
+	padding: 5px 0;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration-line: none;
+}
+aside ul{
+	background-color:	#faf3eb;
 }
